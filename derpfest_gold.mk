@@ -16,9 +16,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/gold/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/derpfest/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_gold
+PRODUCT_NAME := derpfest_gold
 PRODUCT_DEVICE := gold
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi

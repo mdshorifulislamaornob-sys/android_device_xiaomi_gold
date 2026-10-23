@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gold.mk
+    $(LOCAL_DIR)/derpfest_gold.mk
